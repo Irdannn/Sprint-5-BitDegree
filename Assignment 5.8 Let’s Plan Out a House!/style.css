@@ -1,0 +1,41 @@
+.gridContainer {
+    border: 1px solid black;
+    margin: auto;
+    display: grid;
+    width: calc(30 * 20px);
+    height: calc(20 * 20px);
+    grid-template-columns: repeat(30, 20px);
+    grid-template-rows: repeat(20, 20px);
+}
+
+.bathroom {
+    background-color: lightsalmon;
+    grid-column-start: 1;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.bedroom {
+    background-color: cornflowerblue;
+    grid-column: 15 / span 30;
+    grid-row: span 7;
+}
+
+.kitchen {
+    background-color: sienna;
+    grid-column: span 18;
+    grid-row: 13 / span 20;
+}
+ 
+.hallway {
+    background-color: slateblue;
+    grid-column: span 18;
+    grid-row: 8 / span 5;
+}
+ 
+.livingRoom {
+    background-color: tan;
+    grid-column: span 12;
+    grid-row: span 13;
+}

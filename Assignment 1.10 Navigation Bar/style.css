@@ -1,0 +1,35 @@
+h5 {
+    letter-spacing: 10px;
+    font-size: 18px;
+  }
+nav {
+    background-color: #065a60;
+    position: sticky;
+    align-content: top;
+    width: 100%;
+}
+.nav-container {
+    padding: 25px, 100px;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    display: inline;
+}
+.logo {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+a {
+    padding-top: 20px;
+    padding: 65px;
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+}
+a:hover {
+    color: yellow;
+    font-size: 18px;
+    text-decoration: underline;
+}
